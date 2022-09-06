@@ -1,30 +1,54 @@
 /* CSS styles */
 * {
     margin: 0;
-    font-family: sans-serif;
+    font-family: "warnock-pro","Palatino","Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif, italic;
+    font-variant: small-caps;
     box-sizing: border-box
 }
+body {
 
-header {
-    text-align: center;
-    background: rgba(27, 27, 54, 0.2);
     background-image: url("map.jpeg");
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+main {
+    padding: 2%;
+    margin-top: 10%;
+    box-shadow: 0px 0px 15px black;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Header {
     padding-bottom: 10%;
 }
 
-h1 {
+.Name {
+    font-size: 60px;
+}
+
+.Description {
     text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    font-variant: normal;
+}
+
+h1 {
+    text-align: left;
 }
 h3 {
     text-align: center;
-    background-color: blanchedalmond;
+    border-bottom: 1px solid;
     margin-left: 0;
 }
 
 section {
-    border: 1px solid;
+    border-top: 2px solid;
+
     padding: 10px;
+    margin-bottom: 60px;
     font-size: 30px;
     text-align: left;
 }
@@ -39,38 +63,23 @@ li {
     
 }
 
-a {
-    text-decoration:wavy;
-    color: gray;
-}
 #Experience {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     justify-content: center;
-    background-color: blanchedalmond;
 
 }
-#ExperienceName {
-    background-color: blanchedalmond;
-
+.Name {
+    text-align: center;
 }
 
 .Card {
-    background-color: wheat;
+    background-color: antiquewhite;
     border: 1px solid;
     box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+    margin-top: 50px;
     margin: 10px;
-    padding: 20px;
+    padding: 15px;
     width: 40%
-}
-
-.Name {
-    font-size: 60px;
-}
-
-.Description {
-    font-weight: 100;
-    font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.4);
 }
