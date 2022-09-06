@@ -7,6 +7,9 @@
     
     box-sizing: border-box
 }
+body {
+	background-color: rgb(255, 246, 240);
+}
 img {
     width: 100%;
 }
@@ -30,7 +33,6 @@ main {
     min-width: 800px;
     margin-top: 10%;
     padding: 2%;
-    box-shadow: 0px 0px 2px black;
     background-color: white;
     margin-left: 15%;
     margin-right: 15%;
@@ -46,7 +48,6 @@ main {
 
     font-weight: 400;
     font-size: 2.8rem;
-    font-size: 60px;
     text-align: center;
 }
 
@@ -85,7 +86,9 @@ section {
 
 
 h1 {
-    color: #424242;
+	font-weight: 400;
+	font-size: 2.8rem;
+    color: #000000;
     text-align: left;
 }
 h3 {
