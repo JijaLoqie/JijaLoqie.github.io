@@ -133,3 +133,8 @@ a {
 	padding-bottom: 0px;
 	padding-top: 30px;
 }
+
+.FixedLink {
+	display: inline-block;
+	min-width: 100px;
+}
